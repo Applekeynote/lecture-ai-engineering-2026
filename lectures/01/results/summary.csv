@@ -1,0 +1,7 @@
+model,question_id,attempts,successes,failures,response_chars_median,within_200_chars,elapsed_seconds_median,seconds_min,seconds_max,prompt_tokens_median,output_tokens_median,thought_tokens_median,cached_tokens_median,total_tokens_median
+gemini-3.1-flash-lite,course_no_context,3,3,0,278,0,1.1585832999990089,1.0747406000009505,1.3164282999932766,32,162,,,194
+gemini-3.1-flash-lite,course_with_context,3,3,0,173,3,1.0088830000022426,0.9323219999932917,19.674234199992497,110,106,,,216
+gemini-3.1-flash-lite,lora,3,3,0,205,1,1.0446399000065867,0.8756536000000779,1.272179799998412,18,97,,,115
+gemini-3.5-flash-lite,course_no_context,3,3,0,189,3,1.5849866999924416,1.130116399988765,1.5977200999914203,32,116,,,148
+gemini-3.5-flash-lite,course_with_context,3,3,0,163,3,1.3274357000045711,1.2558761999971466,3.7902679999970132,110,96,,,206
+gemini-3.5-flash-lite,lora,3,3,0,162,3,1.2462847999995574,1.2142295000085142,1.259205700000166,18,79,,,97
