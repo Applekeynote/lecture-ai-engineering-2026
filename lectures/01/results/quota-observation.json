@@ -1,0 +1,10 @@
+{
+  "checked_date": "2026-10-24",
+  "source": "https://aistudio.google.com/rate-limit",
+  "tier": "Free",
+  "rows": [
+    "Gemini 3.5 Flash Lite\n\tテキスト出力モデル\t\n0 / 15\n\t\n0 / 250K\n\t\n0 / 500\n\t\nbar_chart",
+    "Gemini 3.8 Flash\n\tテキスト出力モデル\t\n0 / 5\n\t\n0 / 250K\n\t\n0 / 20\n\t\nbar_chart",
+    "Gemini 3.1 Flash Lite\n\tテキスト出力モデル\t\n0 / 15\n\t\n0 / 250K\n\t\n0 / 500\n\t\nbar_chart"
+  ]
+}
