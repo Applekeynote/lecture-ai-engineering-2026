@@ -1,0 +1,126 @@
+{
+  "summary": {
+    "all": {
+      "n": 12,
+      "format_ok": 12,
+      "content_ok": 9,
+      "unsupported": 0
+    },
+    "term": {
+      "n": 4,
+      "format_ok": 4,
+      "content_ok": 4,
+      "unsupported": 0
+    },
+    "paraphrase": {
+      "n": 4,
+      "format_ok": 4,
+      "content_ok": 1,
+      "unsupported": 0
+    },
+    "missing": {
+      "n": 4,
+      "format_ok": 4,
+      "content_ok": 4,
+      "unsupported": 0
+    }
+  },
+  "rows": [
+    {
+      "category": "term",
+      "question": "LoRAの重みの更新方法を教えて。",
+      "raw": "{\"answer\": \"LoRA：事前学習済みの重みは固定したまま、重みの更新分を2つの小さな行列の積（低ランク行列）で表し、その小さな行列だけを学習するPEFT手法。学習するパラメータが少なく、学習結果（アダプタ）も小さいファイルで保存できる。本講座の第2回演習ではLoRAを扱う。\", \"needs_review\": false}",
+      "format_ok": true,
+      "content_ok": true,
+      "unsupported": false
+    },
+    {
+      "category": "term",
+      "question": "過学習とはどんな状態ですか。",
+      "raw": "{\"answer\": \"過学習：学習データにだけ過度に適合し、未知の入力に対する性能が落ちる状態。学習に使わない検証データで性能を測って気づく。\", \"needs_review\": false}",
+      "format_ok": true,
+      "content_ok": true,
+      "unsupported": false
+    },
+    {
+      "category": "term",
+      "question": "コンテキストウィンドウが制限するものは？",
+      "raw": "{\"answer\": \"コンテキストウィンドウ：LLMが1回の呼び出しで扱える入力と出力の合計トークン数の上限。会話履歴やツールの結果もこの中に収める必要があるため、何をモデルに渡すかの設計が重要になる。\", \"needs_review\": false}",
+      "format_ok": true,
+      "content_ok": true,
+      "unsupported": false
+    },
+    {
+      "category": "term",
+      "question": "エポックはどう数えますか。",
+      "raw": "{\"answer\": \"エポック：学習データ全体を1周学習することを1エポックと数える。回数を増やしすぎると過学習しやすい。\", \"needs_review\": false}",
+      "format_ok": true,
+      "content_ok": true,
+      "unsupported": false
+    },
+    {
+      "category": "paraphrase",
+      "question": "モデルに決まった型のJSONを返させる仕組みは何？",
+      "raw": "{\"answer\": \"用語集に記載がありません。確認が必要です。\", \"needs_review\": true}",
+      "format_ok": true,
+      "content_ok": false,
+      "unsupported": false
+    },
+    {
+      "category": "paraphrase",
+      "question": "1分あたりに呼び出せる回数を超えたらどうなりますか。",
+      "raw": "{\"answer\": \"用語集に記載がありません。確認が必要です。\", \"needs_review\": true}",
+      "format_ok": true,
+      "content_ok": false,
+      "unsupported": false
+    },
+    {
+      "category": "paraphrase",
+      "question": "パラメータを一度にどれくらい動かすかを決める設定は？",
+      "raw": "{\"answer\": \"用語集に記載がありません。確認が必要です。\", \"needs_review\": true}",
+      "format_ok": true,
+      "content_ok": false,
+      "unsupported": false
+    },
+    {
+      "category": "paraphrase",
+      "question": "温度パラメータを下げると次の語の選び方はどう変わりますか。",
+      "raw": "{\"answer\": \"temperature：次のトークンを選ぶときのランダムさを調整する設定値。低いほど出力が安定し、高いほど多様になる。同じ質問でも回答が変わる理由の一つ。\", \"needs_review\": false}",
+      "format_ok": true,
+      "content_ok": true,
+      "unsupported": false
+    },
+    {
+      "category": "missing",
+      "question": "DoRAの更新方法は？",
+      "raw": "{\"answer\": \"用語集に記載がありません。確認が必要です。\", \"needs_review\": true}",
+      "format_ok": true,
+      "content_ok": true,
+      "unsupported": false
+    },
+    {
+      "category": "missing",
+      "question": "ReActの推論と行動はどうつながりますか。",
+      "raw": "{\"answer\": \"用語集に記載がありません。確認が必要です。\", \"needs_review\": true}",
+      "format_ok": true,
+      "content_ok": true,
+      "unsupported": false
+    },
+    {
+      "category": "missing",
+      "question": "KVキャッシュは何を保存しますか。",
+      "raw": "{\"answer\": \"用語集に記載がありません。確認が必要です。\", \"needs_review\": true}",
+      "format_ok": true,
+      "content_ok": true,
+      "unsupported": false
+    },
+    {
+      "category": "missing",
+      "question": "蒸留温度を上げるのはなぜですか。",
+      "raw": "{\"answer\": \"用語集に記載がありません。確認が必要です。\", \"needs_review\": true}",
+      "format_ok": true,
+      "content_ok": true,
+      "unsupported": false
+    }
+  ]
+}

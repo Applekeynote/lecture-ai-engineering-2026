@@ -1,0 +1,88 @@
+{
+  "model": "Qwen/Qwen3.5-0.8B",
+  "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+  "seed": 42,
+  "epochs": 3,
+  "steps": 48,
+  "seconds": 177.11,
+  "training_loss": 1.7433746854464214,
+  "training_records": 124,
+  "before": {
+    "all": {
+      "n": 12,
+      "format_ok": 1,
+      "content_ok": 0,
+      "unsupported": 1
+    },
+    "term": {
+      "n": 4,
+      "format_ok": 0,
+      "content_ok": 0,
+      "unsupported": 0
+    },
+    "paraphrase": {
+      "n": 4,
+      "format_ok": 0,
+      "content_ok": 0,
+      "unsupported": 0
+    },
+    "missing": {
+      "n": 4,
+      "format_ok": 1,
+      "content_ok": 0,
+      "unsupported": 1
+    }
+  },
+  "after": {
+    "all": {
+      "n": 12,
+      "format_ok": 12,
+      "content_ok": 5,
+      "unsupported": 3
+    },
+    "term": {
+      "n": 4,
+      "format_ok": 4,
+      "content_ok": 2,
+      "unsupported": 0
+    },
+    "paraphrase": {
+      "n": 4,
+      "format_ok": 4,
+      "content_ok": 2,
+      "unsupported": 0
+    },
+    "missing": {
+      "n": 4,
+      "format_ok": 4,
+      "content_ok": 1,
+      "unsupported": 3
+    }
+  },
+  "search": {
+    "all": {
+      "n": 12,
+      "format_ok": 12,
+      "content_ok": 9,
+      "unsupported": 0
+    },
+    "term": {
+      "n": 4,
+      "format_ok": 4,
+      "content_ok": 4,
+      "unsupported": 0
+    },
+    "paraphrase": {
+      "n": 4,
+      "format_ok": 4,
+      "content_ok": 1,
+      "unsupported": 0
+    },
+    "missing": {
+      "n": 4,
+      "format_ok": 4,
+      "content_ok": 4,
+      "unsupported": 0
+    }
+  }
+}

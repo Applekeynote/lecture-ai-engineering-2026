@@ -1,0 +1,126 @@
+{
+  "summary": {
+    "all": {
+      "n": 12,
+      "format_ok": 1,
+      "content_ok": 0,
+      "unsupported": 1
+    },
+    "term": {
+      "n": 4,
+      "format_ok": 0,
+      "content_ok": 0,
+      "unsupported": 0
+    },
+    "paraphrase": {
+      "n": 4,
+      "format_ok": 0,
+      "content_ok": 0,
+      "unsupported": 0
+    },
+    "missing": {
+      "n": 4,
+      "format_ok": 1,
+      "content_ok": 0,
+      "unsupported": 1
+    }
+  },
+  "rows": [
+    {
+      "category": "term",
+      "question": "LoRAの重みの更新方法を教えて。",
+      "raw": "{\"answer\": \"LoRA（低秩近似）の重みの更新は、元のモデルの学習パラメータと、新しい学習パラメータの差（ベクトル）を計算し、その差を元のモデルの重みに加算することで、新しい学習パラメータを推定します。具体的には、元のモデルの重み $W$ と新しい学習パラメータ $W_{new}$ の差 $\\Delta W = W_{new} - W$ を計算し、$\\Delta W$ を元のモデルの重み $W$ に加算することで、$W_{new}$ を得",
+      "format_ok": false,
+      "content_ok": false,
+      "unsupported": false
+    },
+    {
+      "category": "term",
+      "question": "過学習とはどんな状態ですか。",
+      "raw": "{\"answer\": \"過学習とは、学習モデルが学習対象のデータに過度に依存し、新しいデータに対して正確に予測できない状態です。これは欠陥のモデルが学習した結果、過学習のモデルが学習した結果、欠陥の欠陥のモデルが学習した結果、欠陥の欠陥の欠陥の欠陥の欠陥の欠陥の欠陥の欠陥の欠陥の欠陥の欠陥の欠陥の欠陥の欠陥の欠陥の欠陥の欠陥の欠陥の欠陥の欠陥の欠陥の欠陥の",
+      "format_ok": false,
+      "content_ok": false,
+      "unsupported": false
+    },
+    {
+      "category": "term",
+      "question": "コンテキストウィンドウが制限するものは？",
+      "raw": "{\"answer\": \"コンテキストウィンドウ（コンテキスト window）は、AI モデルが文脈を考慮して回答を生成する際に、入力されたテキストの範囲を制限する機能です。これは、モデルが特定の文脈（例：会話履歴、特定の文章、特定のタスクなど）に基づいて回答を生成する際に必要とされるものです。\"}",
+      "format_ok": false,
+      "content_ok": false,
+      "unsupported": false
+    },
+    {
+      "category": "term",
+      "question": "エポックはどう数えますか。",
+      "raw": "{\"answer\": \"エポックは、1997年にアメリカの経済学者ジョン・マクローリンが提唱した概念で、経済成長のサイクルを指します。具体的には、1929年の大蕭条から1930年代の経済復興まで、1940年代の第二次世界大戦、1950年代の経済成長、1960年代の停滞、1970年代の衰退、1980年代の成長、1990年代の停滞、2000年代の成長、2010年代の停滞",
+      "format_ok": false,
+      "content_ok": false,
+      "unsupported": false
+    },
+    {
+      "category": "paraphrase",
+      "question": "モデルに決まった型のJSONを返させる仕組みは何？",
+      "raw": "{\"answer\": \"モデルに決まった型のJSONを返させる仕組みは、`model.generate()`関数で呼び出された際に、`model.config`（または`model.get_config()`）から取得したパラメータに基づいて、`model.config`に保存された`model.config`の`output_format`フィールドに基づいて生成されたJSONの構造を返すことです。これは、モデルの出力形式を事前に定義し、その定義に従って出力する仕組みです。\"}",
+      "format_ok": false,
+      "content_ok": false,
+      "unsupported": false
+    },
+    {
+      "category": "paraphrase",
+      "question": "1分あたりに呼び出せる回数を超えたらどうなりますか。",
+      "raw": "{\"answer\": \"1 分あたりに呼び出せる回数を超えたら、システムは自動的に停止します。\"}",
+      "format_ok": false,
+      "content_ok": false,
+      "unsupported": false
+    },
+    {
+      "category": "paraphrase",
+      "question": "パラメータを一度にどれくらい動かすかを決める設定は？",
+      "raw": "{\"answer\": \"パラメータを一度にどれくらい動かすかを決める設定は、パラメータの値を指定するパラメータです。\"}",
+      "format_ok": false,
+      "content_ok": false,
+      "unsupported": false
+    },
+    {
+      "category": "paraphrase",
+      "question": "温度パラメータを下げると次の語の選び方はどう変わりますか。",
+      "raw": "{\"answer\": \"温度パラメータを下げると、反応速度が速くなり、生成物の量が増加します。\"}",
+      "format_ok": false,
+      "content_ok": false,
+      "unsupported": false
+    },
+    {
+      "category": "missing",
+      "question": "DoRAの更新方法は？",
+      "raw": "{\"answer\": \"DoRA（ドール・オブ・ラ）は、2026年1月1日に正式に公開されたAIエージェントであり、その更新方法は以下の通りです。\", \"needs_review\": false}",
+      "format_ok": true,
+      "content_ok": false,
+      "unsupported": true
+    },
+    {
+      "category": "missing",
+      "question": "ReActの推論と行動はどうつながりますか。",
+      "raw": "{\"answer\": \"ReAct（Reasoning + Acting）は、推論と行動を一貫して実行するフレームワークです。まず、問題の文脈や知識に基づいて推論を行い、その結果を出力します。次に、その出力に基づいて行動（タスクの遂行）を行います。このサイクルを繰り返すことで、推論と行動が相互に依存し、より正確で効率的な解決策を導き出します。\"}",
+      "format_ok": false,
+      "content_ok": false,
+      "unsupported": false
+    },
+    {
+      "category": "missing",
+      "question": "KVキャッシュは何を保存しますか。",
+      "raw": "{\"answer\": \"KVキャッシュは、モデルの出力（Output）を学習データ（Input）から抽出して、学習前に保存するメモリ領域です。このキャッシュには、学習前に必要なパラメータ（weights）や、学習後に必要なパラメータ（buffers）が含まれます。\"}",
+      "format_ok": false,
+      "content_ok": false,
+      "unsupported": false
+    },
+    {
+      "category": "missing",
+      "question": "蒸留温度を上げるのはなぜですか。",
+      "raw": "{\"answer\": \"蒸留温度を上げるのは、溶媒や原料をより高い温度で蒸発させることで、より高い濃度で抽出・分離する目的です。蒸留プロセスにおいて、温度が高くなることで、より多くの溶質が蒸発し、より高い濃度の溶液が得られます。また、蒸留温度を上げることで、より高い沸点を持つ溶媒や原料を抽出し、より高い濃度で抽出・分離を行うことができます。\"}",
+      "format_ok": false,
+      "content_ok": false,
+      "unsupported": false
+    }
+  ]
+}
